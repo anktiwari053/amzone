@@ -1,0 +1,564 @@
+* {
+     margin: 0;
+     font-family: Arial;
+     border:border-box ;
+
+}
+body{
+       background-color: white;
+}
+
+.hedar {
+       height: 60px;
+       display: flex;
+       justify-content: space-evenly;
+       
+       background-color: black;
+}
+.logo{
+       margin: 1px;
+       height: 50px;
+       width: 150px;
+
+       background-size: cover ;
+      background-image: url(Amazon-Logo-Black\ \(1\).jpg);
+       background-color: white;
+
+}
+.border {
+       border: 2px solid transparent;
+}
+.border:hover {
+       border: 2px solid white;
+}
+.locdan {
+       color: white;
+}
+#de {
+       font-size: 0.7rem;
+       height: 20px;
+       color: #cccccc;
+       
+        
+}
+#up {
+       height: 30px;
+       font-size: 1rem;
+}
+.se {
+       color: white;
+       height: 30px;
+       width: 100px;
+}
+.icon {
+       display: flex;
+       height: 20px;
+       color: #cccccc;
+       
+}
+
+/*   box 2  */
+.search1{
+       display: flex;
+       margin-top:8px ;
+       margin-bottom: 3px;
+       margin-right: 3px;
+       justify-content: space-evenly;
+       width: 600px;
+       height: 40px;
+       border-radius: 10px;
+       background-color:  rgb(172, 172, 14);
+}
+.select {
+      background-color: white;
+        height: 40px;
+        width: 50px;
+        text-align: center;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px ;
+        border: none;
+        
+}
+.search{
+        
+        width:100%;
+        font-size: 1rem;
+        border: none;
+       
+        
+
+}
+.search1:hover {
+                border:  2px solid orange;
+}
+.icon{
+       
+        width: 45px;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        margin-top: 8px;
+        
+       
+}
+
+/* box 3 */
+.lag {
+       color: white;
+       display: flex;
+        height: 40px;
+        background-size:cover ;
+        margin-top: 10px;
+        background-image: url(lan.jpeg);
+
+}
+#lg {
+       background-size:cover ;
+       font-weight: 700;
+       background-image: url(lan.jpeg);
+
+}
+
+/*  box4 */
+span {
+       font-size: 0.7rem;
+}
+.sing {
+       margin-top: 10px;
+       color: white;
+}
+.acc {
+       font-size: 0.85rem;
+       font-weight: 700;
+}
+
+/* box5 */
+
+.cart {
+       margin-top: 10px;
+       color: white;
+       font-weight: 700;
+}
+.cart i {
+       font-size: 35px;
+}
+/* box6 */
+.pofail {
+          margin-top: 10px;
+       color: white;
+       font-weight: 700;
+
+}
+.pofail i {
+       font-size: 35px;
+}
+    /* line 2 */
+.line2 {
+         height: 30px;
+       background-color:#222b2b;
+       display: flex;
+}  
+
+.all{
+       color: white;
+       font-weight: 800;
+       margin: 4px 1px 1px 20px;
+}
+.ha {
+        text-decoration: none;
+       color: white;
+       font-weight: 700;
+       margin: 4px 1px 1px 20px ;
+}  
+.lest {
+       color: white;
+       font-weight: 700;
+       margin: 4px 2px 1px 700px;
+}
+/* mide point */
+.mide {
+       height: 400px;
+       cursor: pointer;
+       background-size:cover ;
+       background-image: url(PC_Hero_2x-toys_1._CB582765723_.jpg);
+       
+       
+}
+.pege {
+
+       height: 20px;
+       
+       display: flex;
+       
+} 
+.page1 {
+       height: 10px;
+       width: 10px;
+       background-color: white;
+       border-radius: 50%;
+       margin-top: 380px;
+     
+}
+#page11 {
+       margin-left: 600px;
+}
+#page2 {
+         
+         margin-left: 40px;
+}
+#page21{
+       background-color: rgb(255, 0, 38);
+       margin-left: 40px;
+}
+
+.line3{
+        height: 300px;
+        background-color: rgb(68, 4, 228);
+        display: flex;
+        cursor: pointer;
+}
+.shop {
+        display: flex;
+         color: black;
+         
+}
+.d {
+       
+       height: 200px;
+       width: 200px;
+       background-color: peru;
+       margin-left: 45px;
+       border-radius: 50%;
+       background-size: cover;
+}
+.back {
+       height: 300px;
+       width: 1250px;
+       background-color: pink;
+      
+}
+h1 {   margin-left: 71px;
+       margin-top:200px ;
+}
+ /* phone pe */
+
+ .phone{
+       background-color: blanchedalmond;
+       height:300px ;
+       width: 280px;
+       cursor: pointer;
+       
+      
+ }
+.pe{    height: 120px;
+       display: flex;
+}
+.pe2{
+       height: 130px;
+       display: flex; 
+}
+ .pe1 {
+       height: 100px;
+       width: 100px;
+       background-color: brown;
+       background-size:cover ;
+       border-radius: 50%;
+       margin-top: 10px;
+       margin-left: 25px;
+ }
+ .pemeta{
+       height: 10px;
+       display: flex;
+       
+ }
+ h3{    margin-top: 0px;
+       margin-left: 23px;
+ }
+
+ /* capshan */
+
+ .cap {
+       height: 100px;
+       background-color: rgb(119, 92, 225);
+       display: flex;
+ }
+ .delivery{
+              display: flex;
+             background-color: rgb(192, 102, 154);
+       
+ }
+ .delivery i {
+       cursor: pointer;
+       margin-top: 15px;
+       font-size: 45px;
+ }
+ 
+ .pdelivery {
+       display: flex;
+       
+       background-color: rgb(224, 179, 205);
+ }
+ .pdelivery i{
+
+       margin-top: 15px;
+       font-size: 45px;
+       
+ }
+ .returns {
+       display: flex;
+       
+
+ }
+ .returns i{
+       cursor: pointer;
+       margin-top: 15px;
+       font-size: 45px;
+ }
+ .cablr{
+       display: flex;
+       
+ }
+ .cablr i {
+       margin-top: 15px;
+       font-size: 45px;
+ }
+ #c {
+
+       height: 80px;
+       width: 200px;
+       margin-top: 20px;
+       margin-left: 150px;
+       border-radius: 50%;
+       background-color: rgb(119, 92, 225);
+       cursor: pointer;
+ }
+
+ /* nwe box */
+.big1 {
+        height: 450px;
+        cursor: pointer;
+        background-color: rgb(166, 206, 223);
+        display: flex;
+       
+ }
+.div21 {
+       height: 450px;
+       width: 400px;
+       background-color: wheat;
+       margin: 0px 0px 0px 10px;
+      
+    
+ }
+ .h11{
+       margin: 0px 0px 0px 18px;
+       background-size: cover;
+
+ }
+ .simal1 {
+       height: 150px;
+       width: 150px;
+       background-color: crimson;
+       margin: 10px;
+       background-size: cover;
+ }
+ .s {
+       display: flex;
+ }
+ .s1 {
+       display: flex;
+ }
+ .al {
+       color: black;
+       text-decoration: none;
+       font-size: 20px;
+       margin-left: 10px;
+ }
+             /* men */
+
+.men1 {
+       height: 300px;
+       background-color: rgb(207, 200, 200);
+       
+       
+}  
+.capde{
+       margin: 50px 0px 0px 450px;
+       color: black;
+       font-size: 30px;
+}
+#capdei{
+        margin-top:0px ;
+}
+
+
+.sm {
+       height: 270px;
+       margin-top: 10px;
+       display: flex;
+       background-color: rgb(207, 200, 200);
+       background-size: cover;
+       
+}
+.photo1  {
+       height:200px ;
+       width: 150px;
+       cursor: pointer;
+       background-size: cover;
+       background-color: chartreuse;
+       margin: 15px 0px 0px 50px;
+
+}
+.photo1:hover {
+       height: 500px;
+       width: 400px;
+       z-index: 1;
+}
+#op {
+       background-size: cover;
+}
+.sm i {
+       font-size: 100px;
+       margin: 50px 0px 0px 10px;
+} 
+
+
+.sarcla{
+       height: 30px;
+
+       background-color: rgb(207, 200, 200);
+       display: flex;
+}
+.wman{
+        margin-top: 10px;
+}
+.sarclal {
+       height: 20px; ;
+       width: 20px;
+       background-color:white;
+       border-radius: 50%;
+       
+       margin-left: 20px;
+}
+.wman1 {
+         height: 300px;
+       
+         background-color: blue;
+}
+#kk {
+       background-color: rgb(0, 0, 0);
+       margin: 0px 0px 0px 600px;
+}
+
+.name {
+       margin: 204px 0px 0px 0px ;
+}
+.re {
+       height: 100px;
+       width: 100px;
+       font-size: 0.1px;
+       
+
+      
+       margin-top: 202px;
+}
+.re i {
+       color: black;
+       font-size: 20px;
+}
+.re:hover {
+       height: 300px;
+       width: 600px;
+       display: flex;
+       align-items: center;
+
+       margin-top: 6px;
+       font-size: 10px;
+       background-color:#5681ae ;
+}
+
+
+ /* footer */
+
+.first {
+       background-color:#5681ae ;
+       height: 50px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+} 
+.sec {
+       background-color:#222f3d ;
+       color: #dddddd;
+       height: 300px;
+       display: flex;
+       justify-content: space-evenly;
+       
+}
+ul p {
+        margin-top: 20px;
+}
+
+
+ul a {
+       display: block;
+       font-size: 0.8rem;
+       margin-top: 10px;
+} 
+
+ /* box 3 */
+
+ .the {
+       height: 100px;
+       cursor: pointer;
+       background-color:#5681ae ;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 2px solid black;
+ }
+ .t11 {
+       margin-right: 100px;
+       background-size: cover;
+       background-image: url(amazon-logo-on-transparent-background-free-vector.jpg);
+ }
+ .t1 {
+       height:  80px;
+       width: 200px;
+       background-color: brown;
+       border: 2px solid black;
+       margin-left: 50px;
+       
+ }
+ .t21 {
+        font-size: 25px;
+        background-color:#222f3d ;
+        text-align: 0.89rem;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+ }
+
+
+
+
+
+ .too {  
+       
+       height: 200px;
+       width: 200px;
+
+       background-size: cover;
+ }
+ .ff {
+       height: 60px;
+       width: 90px;
+       font-size: 15px;
+       
+ }
+ .gg {
+       height: 500px;
+       width: 500px;
+       background-color:hotpink ;
+       margin-left: 210px;
+
+ }
